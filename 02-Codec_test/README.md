@@ -29,21 +29,29 @@
 ---
 
 # Files
-- `Species + ".binary_test_data_out.json"`: files containing the binary data for codec test in this work.
-- `Species + ".aa_frequency_dict.json"`: files containing the total number of each amino acid accross all proteins in each species.
-- `Species + ".codec_0.json"`: files containing the original codec of each species.
-- `Species + ".codon_frequency.csv"`: files containing the relative codon usage of each species.
-(Note: the codon usage of E. coli, S. cerevisia and H. sapiens were download from https://github.com/Edinburgh-Genome-Foundry/python_codon_tables/tree/master/python_codon_tables/codon_usage_data/tables. Other were calculated from all CDSs in each species.)
-- `Species + ".codec_pass_qua_dict.json"`: files containing the first, first-quarter, middle, three-quarter and last GBS-pass codecs sorted by GBS of each species.
-- `Species + ".GBS.txt"`: files containing all potential available codecs ID and GBS of each species.
-- `Species + ".GC_bias/"`: directories containing GC bias results in this work
+- `Species + ".binary_test_data_out.json"`:
+  files containing the binary data for codec test in this work.
+- `Species + ".aa_frequency_dict.json"`:
+  files containing the total number of each amino acid accross all proteins in each species.
+- `Species + ".codec_0.json"`:
+  files containing the original codec of each species.
+- `Species + ".codon_frequency.csv"`:
+  files containing the relative codon usage of each species.
+  (Note: the codon usage of E. coli, S. cerevisia and H. sapiens were download from https://github.com/Edinburgh-Genome-Foundry/python_codon_tables/tree/master/python_codon_tables/codon_usage_data/tables. Other were calculated from all CDSs in each species.)
+- `Species + ".codec_pass_qua_dict.json"`:
+  files containing the first, first-quarter, middle, three-quarter and last GBS-pass codecs sorted by GBS of each species.
+- `Species + ".GBS.txt"`:
+  files containing all potential available codecs ID and GBS of each species.
+- `Species + ".GC_bias/"`:
+  directories containing GC bias results in this work
 
 # Scripts
-- `01-Generation_of_Codec_test_data.py`
-This script is used for generating binary dataset for codec test. The binary dataset encludes a series of random binary strings for all genes (or available encoding regions) covering their full lengths with 5 proportions of "1": 0% (all- "0"), 25%, 50%, 75% and 100% (all- "1"). The pattern all- "0" and all- "1" required a single string each, while twenty randomized binary sequences were generated for the intermediate proportions (25%, 50% and 75%).
-Usage: 
+- `01-Generation_of_Codec_test_data.py`:
+  This script is used for generating binary dataset for codec test. The binary dataset encludes a series of random binary strings for all genes (or available encoding regions) covering their full lengths with 5 proportions of "1": 0% (all- "0"), 25%, 50%, 75% and 100% (all- "1"). The pattern all- "0" and all- "1" required a single string each, while twenty randomized binary sequences were generated for the intermediate proportions (25%, 50% and 75%).
+  Usage: 
 ```bash
 python 01-Generation_of_Codec_test_data.py
 ```
 
 - `02-Generation_of_available_codecs.py`
+
