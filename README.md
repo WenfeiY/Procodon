@@ -37,6 +37,22 @@ chmod 777 SPAdes-3.15.4-Linux/bin/*
 
 ## Usage
 The directories with numbers include codes and test data for conducting all *in silico* progresses:
- - **01-Procodon**: Python module named `Procodon`, provides all the basic functions of data storage via protein, including codec testing, sequence & file loading, data conversion, data encoding, info key & sequence decoding and other utilities.
- - **02-Codec_test**: Scripts and test data for encoding binaries in all available regions of 9 species from archaea, bacteria and eukaryotes. Some datasets are too large to upload, which can be downloaded from [figshare](https://doi.org/10.6084/m9.figshare.31055530).
- - **03-Data_encoding_and_decoding**: Scripts for encoding information into given genes and decoding data from given CDSs.
+ - **01-Procodon**: <br>&emsp;&emsp;Python module named `Procodon`, provides all the basic functions of data storage via protein, including codec testing, sequence & file loading, data conversion, data encoding, info key & sequence decoding and other utilities.
+ - **02-Codec_test**: <br>&emsp;&emsp;Scripts and test data for encoding binaries in all available regions of 9 species from archaea, bacteria and eukaryotes. Some datasets are too large to be uploaded, which can be downloaded from [figshare](https://doi.org/10.6084/m9.figshare.31055530).
+ - **03-Data_encoding_and_decoding**: <br>&emsp;&emsp;Scripts for encoding information into given genes and decoding data from given CDSs.
+ - **04-Analysis_of_orthologs**: <br>&emsp;&emsp;Python Script for extracting ortholog info of budding yeast from given Genbank file. R script and ortholog data for creating syntenic plot. The Genbank files are too large to be uploaded, which can be downloaded from [figshare](https://doi.org/10.6084/m9.figshare.31055530).
+ - **05-Simulation_of_images_storage_with_bio-index**: <br>&emsp;&emsp;Scripts for extracting gene positions from budding yeast. Scripts, input images and bio-index info for encoding images into yeast genome with gene sorted as bio-index. The resulting sequences are too large to be uploaded, which can be downloaded from [figshare](https://doi.org/10.6084/m9.figshare.31055530).
+ - **06-AA_corection_test**: <br>&emsp;&emsp;Scripts and data for testing reads correcting by AA, including NGS data generation, reads correction, data decoding and calculation of data recovery rates. Protein, gene flanking and intron sequences are too large to be uploaded, which can be downloaded from [figshare](https://doi.org/10.6084/m9.figshare.31055530).
+ - **07-Estimation_of_decoding_time**: <br>&emsp;&emsp;Scripts and data for estimating the time cost of decoding and cracking complexity of different encryption methods.
+ - **08-Music_encoding**: <br>&emsp;&emsp;Scripts and data for encoding single or complex music notes into given genes.
+ - **09-Music_SCRaMbLE**: <br>&emsp;&emsp;Scripts and data for encoding "*Canon*" in synthetic chromosome and decoding rearranged music from SCRaMbLEd strains
+ - **10-Generation_of_music_library**: <br>&emsp;&emsp;Scripts and data for extracting sequences and annotations of synthetic yeast genome and generating music library with all available codecs in budding yeast. Sequences & annotations of synthetic chromosomes and codecs are too large to be uploaded, which can be downloaded from [figshare](https://doi.org/10.6084/m9.figshare.31055530).
+ - **11-Computing_melodic_difference**: <br>&emsp;&emsp;Scripts and data for quantifying distances between SCRaMbLEd melodies and the original one.
+ - **Dataset-12-Genome_encoding_space**: <br>&emsp;&emsp;Sccript for computing available encoding space from annotations in GFF3 format. The exampled GFF3 file is too large to be uploaded, which can be downloaded from [figshare](https://doi.org/10.6084/m9.figshare.31055530).
+
+## Note
+- The detailed requirements and descriptions are in the `README.md` in each directory.
+- To save space, some of the required input files which are the same in different tasks are not provided in every directory. Please copy them from other directories.
+
+## License
+MIT
