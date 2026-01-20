@@ -10,5 +10,8 @@ Codes and test data for "Pro-Codon", a data storage system programmed by protein
 - **Anaconda**: >=24.7.1
 
 ## Installation
-git clone https://github.com/WangLabTHU/GPro.git
+Installation from source is provided here.
+
+First, download the package via git clone
+  git clone https://github.com/WangLabTHU/GPro.git
 
