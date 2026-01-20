@@ -13,6 +13,7 @@ Codes and test data for "Pro-Codon", a data storage system programmed by protein
 Installation from source is provided here.
 
 First, download the package via git clone
+
 ```git clone https://github.com/WangLabTHU/GPro.git```
 
 
