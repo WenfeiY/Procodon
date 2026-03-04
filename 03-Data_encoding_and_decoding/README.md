@@ -18,6 +18,7 @@
 <br>&emsp;&emsp;Usage: ```python 04-Data_decoding_from_multiple_CDSs.py```
 
 ## Attached files
- - **S.cerevisiae**: directories containing all CDS and protein sequences of yeast, which can be downloaded from [Figshare](https://doi.org/10.6084/m9.figshare.31055530).
+ - **S.cerevisiae/**: directories containing all CDS and protein sequences of yeast, which can be downloaded from [Figshare](https://doi.org/10.6084/m9.figshare.31055530).
  - **Codec_112417.json**: Codec used in this work.
  - **S.cerevisiae.codon_frequency.csv**: Relative codon usage of yeast.
+
