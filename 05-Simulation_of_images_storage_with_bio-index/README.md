@@ -22,6 +22,7 @@
 
 ## Attached files
  - **Images/**: all images used for storage simulation.
+ - **S.cerevisiae/**: directories containing all CDS and protein sequences of yeast, which can be downloaded from [Figshare](https://doi.org/10.6084/m9.figshare.31055530).
  - **S.cerevisiae.The_arrival_of_a_train.Ng-bio-index.json**: recoded CDS sequences storing images from "The_arrival_of_a_train" in json format.
  - **S.cerevisiae.The_arrival_of_a_train.Ng-bio-index.gbk**: recoded yeast genome storing images from "The_arrival_of_a_train" with annotations.
  - **S.cerevisiae.The_arrival_of_a_train.Ng-bio-index.fasta**: recoded yeast genome storing images from "The_arrival_of_a_train" in FASTA format.
@@ -34,3 +35,4 @@
  - **Ng.bio-index.txt**: gene order of bio-index from *Nakaseomyces glabratus*.
  - **Kl.bio-index.txt**: gene order of bio-index from *Kluyveromyces lactis*.
  - **Tp.bio-index.txt**: gene order of bio-index from *Tetrapisispora phaffli*.
+
