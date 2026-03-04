@@ -99,6 +99,7 @@
 <br>&emsp;&emsp;Usage: ```bash Attached-21-TBLASTN_corrected_cov.sh <prefix> <coverage>```
 
 ## Attached files
+ - **S.cerevisiae/**: directories containing all CDS and protein sequences of yeast, which can be downloaded from [Figshare](https://doi.org/10.6084/m9.figshare.31055530).
  - **S.cerevisiae.Protein/**: Directory containing all protein sequences extracted from *S. cerevisiae* reference genome (GCF_000146045.2), which can be downloaded from [Figshare](https://doi.org/10.6084/m9.figshare.31055530).
  - **S.cerevisiae.Gene_flanking/**: Directory containing all gene flanking sequences (upstream and downstream 50 bp) extracted from *S. cerevisiae* reference genome (GCF_000146045.2), which can be downloaded from [Figshare](https://doi.org/10.6084/m9.figshare.31055530).
  - **S.cerevisiae.Intron/**: Directory containing all intron sequences extracted from *S. cerevisiae* reference genome (GCF_000146045.2), which can be downloaded from [Figshare](https://doi.org/10.6084/m9.figshare.31055530).
@@ -106,3 +107,4 @@
  - **simple_gene_list.txt**: Systematic names of genes without introns used for storing images.
  - **intron_gene_list.txt**: Systematic names of genes with introns used for storing images.
  - **S.cerevisiae.The_arrival_of_a_train.Ng-bio-index.fasta**: Genome sequences with recoded CDSs.
+
