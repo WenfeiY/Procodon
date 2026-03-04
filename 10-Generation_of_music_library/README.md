@@ -15,9 +15,9 @@
 ## Attached files
  - **synthetic_chromosomes/**: Directory containing sequences and annotations of synthetic yeast genome, which can be downloaded from [Figshare](https://doi.org/10.6084/m9.figshare.31055530).
 <br>&emsp;&emsp;`*.gff`: annotations and sequences download from https://syntheticyeast.github.io/sc2-0/data/
-<br>&emsp;&emsp;`*.gff3`: annotations extracted from *gff
-<br>&emsp;&emsp;`*.fa`: sequences extracted from *gff
-<br>&emsp;&emsp;`./genbank/`: genbank files generated from annotations and sequences extracted from *.gff
+<br>&emsp;&emsp;`*.gff3`: annotations extracted from `*gff`
+<br>&emsp;&emsp;`*.fa`: sequences extracted from `*gff`
+<br>&emsp;&emsp;`./genbank/`: genbank files generated from annotations and sequences extracted from `*.gff`
  - **S.cerevisiae.codec/**: Directory containing all potential available codecs of yeast, which can be downloaded from [Figshare](https://doi.org/10.6084/m9.figshare.31055530).
  - **syn_chr_CDS_seq_dict.json**: Sequences extracted by `01-Extraction_of_synthetic_sequences.py`, and modified as below:
 <br>&emsp;&emsp;
