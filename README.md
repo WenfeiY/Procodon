@@ -4,7 +4,7 @@ The code and test data of The Living "Hard Drive": Data Storage Programmed by Pr
 ---
 
 ## Introduction
-Storing information in vivo bridges digital and biological realms with encrypted, long-term data storage potential, but current methods mainly rely on exogenous, non-functional, possibly evolutionarily unstable sequences. Here, we present Pro-Codon, a in vivo data storage system embedding information into balanced protein codons to render genes both information-rich and functional. In Saccharomyces cerevisiae, Pro-Codon flexibly encodes multiple data streams across genes with high stability and no fitness cost. The system enables index-free retrieval via reference genome mapping and leverages codec and genomic diversity for robust encryption, resisting brute-force attacks for potentially over 1015 years, providing a useful platform for safeguarding proprietary strains. Furthermore, by integrating synthetic genomics with music composition, we generated a 50 Gb library and “Yeast Fantasia”, where induced genomic rearrangements serve to enhance melodic diversity.  This work establishes a new paradigm for living data storage, seamlessly integrating digital information with life’s fundamental processes.
+Storing information in vivo bridges digital and biological realms with encrypted, long-term data storage potential, but current methods mainly rely on exogenous, non-functional, possibly evolutionarily unstable sequences. Here, we present Pro-Codon, a in vivo data storage system embedding information into balanced protein codons to render genes both information-rich and functional. In *Saccharomyces cerevisiae*, Pro-Codon flexibly encodes multiple data streams across genes with high stability and no fitness cost. The system enables index-free retrieval via reference genome mapping and leverages codec and genomic diversity for robust encryption, resisting brute-force attacks for potentially over 10^15 years, providing a useful platform for safeguarding proprietary strains. Furthermore, by integrating synthetic genomics with music composition, we generated a 50 Gb library and “Yeast Fantasia”, where induced genomic rearrangements serve to enhance melodic diversity.  This work establishes a new paradigm for living data storage, seamlessly integrating digital information with life’s fundamental processes.
 
 ![Fig1 20260115](https://github.com/user-attachments/assets/8dfdffe3-e50a-4152-85bb-85bbd53296dd)
 
@@ -51,7 +51,7 @@ The directories with numbers include codes and test data for conducting all *in 
  - **Dataset-12-Genome_encoding_space**: <br>&emsp;&emsp;Sccript for computing available encoding space from annotations in GFF3 format. The exampled GFF3 file is too large to be uploaded, which can be downloaded from [figshare](https://doi.org/10.6084/m9.figshare.31055530).
 
 ## Note
-- The detailed requirements and descriptions are in the `README.md` in each directory.
+- The detailed requirements and descriptions of each task are in the `README.md` in relevant directory.
 - To save space, some of the required input files which are the same in different tasks are not provided in every directory. Please copy them from other directories.
 
 ## License
