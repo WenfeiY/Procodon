@@ -1,6 +1,6 @@
 ## Requirements (Spydes IDE 6.0.5):
 - **Python**: >= 3.11.11
-- **pretty_midi**: >= 0.2.0
+- **pretty_midi**: >= 0.2.10
 - **scipy**: >= 1.15.3
 - **numpy**: >= 2.0.1
 - **Procodon**: Python module in <01-Procodon>
@@ -14,3 +14,4 @@
  - **synIXR.SCRaMbLE.melody/**: Directory containing audios of SCRaMbLEd strains in MIDI format, which can be downloaded from [Figshare](https://doi.org/10.6084/m9.figshare.31055530).
  - **Canon.synIXR.150_bit_per_note.txt**: Note infos of Canon stored in synIXR.
  - **Canon.synIXR.150_bit_per_note.mid**: Audio of Canon stored in synIXR in MIDI format.
+
