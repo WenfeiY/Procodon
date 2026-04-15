@@ -36,4 +36,6 @@
  - **Ng.bio-index.txt**: gene order of bio-index from *Nakaseomyces glabratus*.
  - **Kl.bio-index.txt**: gene order of bio-index from *Kluyveromyces lactis*.
  - **Tp.bio-index.txt**: gene order of bio-index from *Tetrapisispora phaffli*.
+ - **Codec_112417.json**: Codec used in this work.
+ - **S.cerevisiae.codon_frequency.csv**: Relative codon usage of yeast.
 
