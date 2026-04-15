@@ -1,5 +1,5 @@
 # Procodon
-The code and test data of The Living "Hard Drive": Data Storage Programmed by Protein-coding Genes, Created by Wenfei Yu from Dailab@SIAT.
+The code and test data of "Programmable in vivo data storage in functional protein-coding sequences", Created by Wenfei Yu from Dailab@SIAT.
 
 ---
 
@@ -48,7 +48,8 @@ The directories with numbers include codes and test data for conducting all *in 
  - **09-Music_SCRaMbLE**: <br>&emsp;&emsp;Scripts and data for encoding "*Canon*" in synthetic chromosome and decoding rearranged music from SCRaMbLEd strains
  - **10-Generation_of_music_library**: <br>&emsp;&emsp;Scripts and data for extracting sequences and annotations of synthetic yeast genome and generating music library with all available codecs in budding yeast. Sequences & annotations of synthetic chromosomes and codecs are too large to be uploaded, which can be downloaded from [figshare](https://doi.org/10.6084/m9.figshare.31055530).
  - **11-Computing_melodic_difference**: <br>&emsp;&emsp;Scripts and data for quantifying distances between SCRaMbLEd melodies and the original one.
- - **Dataset-12-Genome_encoding_space**: <br>&emsp;&emsp;Sccript for computing available encoding space from annotations in GFF3 format. The exampled GFF3 file is too large to be uploaded, which can be downloaded from [figshare](https://doi.org/10.6084/m9.figshare.31055530).
+ - **12-Genome_encoding_space**: <br>&emsp;&emsp;Sccript for computing available encoding space from annotations in GFF3 format. The exampled GFF3 file is too large to be uploaded, which can be downloaded from [figshare](https://doi.org/10.6084/m9.figshare.31055530).
+ - **13-Decoding_data_from_NGS**: <br>&emsp;&emsp;Sccript for decoding binary data from NGS data. The Fastq files are too large to be uploaded, which can be downloaded from [figshare](https://doi.org/10.6084/m9.figshare.31055530).
 
 ## Note
 - The detailed requirements and descriptions of each task are in the `README.md` in relevant directory.
