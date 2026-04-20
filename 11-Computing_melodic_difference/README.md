@@ -10,8 +10,8 @@
 <br>&emsp;&emsp;Usage: ```python 01-Computing_audio_distance.py```
 
 ## Attached files
- - **synIXR.SCRaMbLE.note_info/**: Directory containing note infos of SCRaMbLEd strains, which can be downloaded from [Figshare](https://doi.org/10.6084/m9.figshare.31055530).
- - **synIXR.SCRaMbLE.melody/**: Directory containing audios of SCRaMbLEd strains in MIDI format, which can be downloaded from [Figshare](https://doi.org/10.6084/m9.figshare.31055530).
+ - **synIXR.SCRaMbLE.note_info/**: Directory containing note infos of SCRaMbLEd strains.
+ - **synIXR.SCRaMbLE.melody/**: Directory containing audios of SCRaMbLEd strains in MIDI format.
  - **Canon.synIXR.150_bit_per_note.txt**: Note infos of Canon stored in synIXR.
  - **Canon.synIXR.150_bit_per_note.mid**: Audio of Canon stored in synIXR in MIDI format.
 
