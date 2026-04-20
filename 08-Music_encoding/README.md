@@ -14,6 +14,7 @@
 
 ## Attached files
  - **S.cerevisiae/**: directories containing all CDS and protein sequences of yeast, which can be downloaded from [Figshare](https://doi.org/10.6084/m9.figshare.31055530).
+ - **Codec_112417.json**: Codec used in this work.
  - **The_blue_danube.YIL036WC.txt**: Musical notes info of melodic fragment from "The Blue Danube" for encoding into YIL036WC.
  - **S.cerevisiae.codec_0.json**: The original codec of yeast.
  - **S.cerevisiae.codon_frequency.csv**: The relative codon usage of yeast.
